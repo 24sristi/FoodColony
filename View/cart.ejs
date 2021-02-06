@@ -1,0 +1,56 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/cartQuery.css">
+    <title>cart</title>
+</head>
+
+<body>
+    <div class="bkimg1"></div>
+    <div class="bkimg2"></div>
+    <div class="bkimg3"></div>
+    <div class="container">
+        <div class="wrap">
+
+            <div class="header">
+                <i class="fas fa-chevron-left"></i> Your order &#128523;
+            </div>
+            <div class="details">
+
+
+                <% if(name.length>0){ %>
+                    <h3>Amount</h3>
+                        <h3><%- amt%></h3>
+            </div>
+            <div class="items">
+                <ul>
+                    <% for(let i=0;i<name.length;i++){ %>
+                        <li>
+                            <div class="name"><i><img src=<%- name[i].img %> alt=""></i> <div class="N"> <%- name[i].name %></div></div>
+                            <div class="amt"><%- name[i].amt %>
+                            </div>
+                        </li>
+                    <% } %>
+                    <%}else {%>
+                        <h3>Amount</h3>
+                        <h3>0</h3>
+            </div>
+            <div class="items">
+                <ul>
+                    <li>
+                        <div class="name">CART IS EMPTY</div>
+                    </li>
+                    <%}%>
+                      
+                </ul>
+            </div>
+            <div class="checkout">Checkout</div>
+        </div>
+    </div>
+    <script src="./js/cart.js"></script>
+</body>

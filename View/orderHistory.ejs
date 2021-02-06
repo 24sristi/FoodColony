@@ -1,0 +1,58 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>history</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/orderHistory.css">
+    <link rel="stylesheet" href="./css/orderHistoryQuery.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="container">
+            <div class="div1">
+                <div class="wrap">
+                    <div class="photo"><img src="<%- user.pImage %>" alt=""></div>
+                    <div class="name"><%- user.name %></div>
+                    <div class="common" id="option1"><i class="fas fa-user-circle"></i><a href="/profile">Profile</a></div>
+                    <div class="common" id="option2"><i class="fas fa-hamburger"></i> <a href="/menu">Menu</a></div>
+                    <div class="common" id="option3"><i class="fas fa-bars"></i> <a href="/faq"> What we offer?</a></div>
+                    <div class="common" id="option4"><i class="fas fa-sign-out-alt"></i> <a href="/logout">Logout</a> </div>
+    
+                </div>
+            </div>
+            <div class="div2">
+                <div class="todaysOrder">Today's Order</div>
+                <div class="header">
+                    <div class="sno">S. No.</div>
+                    <div class="username">Name</div>
+                    <div class="amt">Amount</div>
+                    <div class="adress">Adress</div>
+                    <div class="details">Details</div>
+                    <div class="completed">Out for delivery</div>
+                </div>
+                <ul>
+                    <% if(orders.length==0){ %>
+                        <div class="adress" style="padding-left: 20px; font-size: large; font-weight: 700; width: fit-content;">All Order Delivered</div>
+                        <% } %>
+                    <% for(let i=0;  i<orders.length ;i++) { %>
+                        <li>
+                            <div class="item" orderId = <%- orders[i]._id %>>
+                                <div class="sno"><%- i+1 %></div>
+                                <div class="itemName"><%- orders[i].name %> </div>
+                                <div class="amt"><%- orders[i].amount %></div>
+                                <div class="adress"><%- orders[i].address %></div>
+                                <div class="details"><%- orders[i].dishes %></div>
+                                <div class="completed"><span>Done</span></div>
+                            </div>
+                        </li>
+                        <% } %>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./js/orderHistory.js"></script>
+</body>
