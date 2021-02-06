@@ -1,0 +1,309 @@
+@media only screen and (max-width: 953px){
+    .common{
+        margin: 10px 15px;
+    }
+    .first{
+        font-size: xx-large;
+       }
+   .cart i{
+        font-size: medium;
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+    }
+    .pDetails{
+        margin-left: 120px;
+    }
+    .profilePic{
+        margin-right: 85px;
+        
+    }
+    
+}
+@media only screen and (max-width: 900px){
+    .common{
+        margin: 10px 15px;
+    }
+    .first{
+        font-size: xx-large;
+       }
+   .cart i{
+        font-size: medium;
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+    }
+    .second{
+        
+         padding-left: 4%;
+         padding-right: 4%;
+    }
+    .pDetails{
+        margin-left: 194px;
+    }
+    .profilePic{
+        margin-right: 106px;
+    }
+
+}
+@media only screen and (max-width:810px){
+    .common{
+        margin: 10px 10px;
+        font-size: medium;
+    }
+    .common i{
+        margin-right: 15px;
+    }
+    .pDetails{
+        width: 330px;
+    }
+    
+}
+ @media only screen and (max-width: 782px){
+     .common{
+         margin: 10px 10px;
+         font-size: medium;
+     }
+     .common i{
+         margin-right: 15px;
+ 
+     }
+     
+     .pDetails{
+         width: 300px;
+         margin-left: 16px;
+         
+    }
+      .wrap{
+          display: flex;
+          flex-direction: column-reverse;
+          justify-content: center;
+          align-items: center;
+          margin-top: 50px;
+      }   
+      .profilePic{
+          margin-top: 25px;
+          margin-left: 89px;
+      }
+
+      .photo img, .photo{
+          width: 90px;
+          height: 90px;
+      }
+      
+ }
+@media only screen and (max-width: 690px){
+   .first{
+       font-size: 25px;
+      }
+}
+@media only screen and (max-width: 650px){
+    .common{
+        margin: 20px 10px;
+        font-size: small;
+    }
+    .name{
+        font-size: medium;
+    }
+    .photo, .photo img{
+        height: 70px;
+        width: 70px;
+    }
+    .common i{
+        margin-right: 10px;
+        font-size: small;
+       }
+   .cart i{
+        margin-top: 15px;
+
+    }
+    .first{
+        font-size: xx-large;
+        align-items: unset;
+   }
+   .heading{
+       width: 65%;
+   }
+   .wrap{
+       font-size: small;
+   }
+   .pDetails{
+       width: 250px;
+   }
+}
+@media only screen and (max-width: 578px){
+    .name{
+        margin-bottom: 30px;
+        
+    }
+    .photo, .photo img{
+        height: 50px;
+        width: 50px;
+    }
+    .common i{
+        margin-right: 10px;
+        font-size: x-small;
+    }
+    .first{
+       font-size: x-large;
+  }
+  .wrap{
+    font-size: small;
+    overflow: auto;
+}
+   .pDetails{
+    width: 100%;
+    padding-top: 0px;
+    overflow: hidden;
+    margin: 0px;
+   }
+   .profilePic{
+    margin-left: 81px;
+    }
+    #edit{
+        display: none;
+    }
+
+}
+@media only screen and (max-height: 550px){
+    .photo{
+        height: 100px;
+        width: 100px;
+        margin-bottom: 20px;
+
+    }
+    .name{
+       margin-bottom: 30px;
+    }
+    .wrap{
+       background-position: -20px 170px;
+   }
+}
+@media only screen and (max-width: 500px){
+   .name{
+       margin-bottom: 30px;
+   }
+   .photo{
+       height: 50px;
+       width: 50px;
+   }
+   .common{
+       display: flex;
+       padding-left:10% ;
+   }
+   .common i{
+       display: none;
+   }
+   .wrap{
+    font-size: small;
+    width: 150px;
+    margin-left: 100px;
+    font-size: 15px;
+}
+.pDetails{
+    width: 150px;
+}
+}
+
+@media only screen and (max-width: 460px){
+    .name{
+        margin-bottom: 30px;
+    }
+    .photo{
+        height: 50px;
+        width: 50px;
+    }
+    .common{
+        display: flex;
+        padding-left:10% ;
+    }
+    .common i{
+        display: none;
+    }
+    .wrap{
+     font-size: small;
+     height: fit-content;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+    width: 100%;
+
+     flex-direction: column-reverse;
+ }
+ .pDetails{
+     width: 250px;
+     margin-top: 5px;
+     padding-top: 5px;;
+     
+ }
+ .profilePic{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+     
+ }
+ }
+ @media only screen and (max-height: 450px){
+    .photo{
+        height: 80px;
+        width: 80px;
+        margin-bottom: 20px;
+
+    }
+    .name{
+       margin-bottom: 20px;
+    }
+    .common{
+        margin: 10px 35px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+   
+   .first{
+       font-size: large;
+       padding: 15px 25px;
+   }
+   .cart i{
+       height: 30px;
+       width: 30px;
+   }
+   .wrap{
+    font-size: small;
+    height: fit-content;
+ align-items: center;
+ justify-content: center;
+overflow: hidden;
+ flex-direction: column-reverse;
+   }
+.pDetails{
+    width: 250px;
+    margin-top: 5px;
+    padding-top: 5px;
+    
+}
+.profilePic{
+   padding-bottom: 5px;
+   margin-bottom: 25px;
+   width: 250px;
+   padding-right: 50px;
+}
+.common a{
+    font-size: small;
+}
+}
+
+@media only screen and (max-width: 350px){
+    .pDetails{
+        margin-top: 5px;
+        padding-top: 5px;
+        
+        
+    }
+    .profilePic{
+       padding-bottom: 5px;
+       margin-bottom: 5px;
+       width: 250px;
+       padding-right: 0px;
+    }
+
+}

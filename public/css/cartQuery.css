@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1500px) and (orientation : landscape){
+    .details,.items{
+        width: 70%;
+    }
+    .checkout{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+   .details,.items{
+       width: 80%;
+   }
+  
+   .checkout{
+    width: 60%;
+    height: 50px;
+    }
+}
+
+@media only screen and (max-width:450px) and (orientation : portrait){
+    .neg, .pos, .cnt{
+        height: 20px;
+        width: 20px;
+        font-size: small;
+    
+    }
+    .cnt{
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width:400px) and (orientation : portrait) {
+    .items li, .details{
+        height: 60px;
+    }
+    li .name i{
+        margin-right: 10px;
+    }
+    li .name{
+        margin-right: 20px;
+    }
+    .name, .amt, .checkout{
+        font-size: medium !important;
+        font-weight: 600;
+    }
+    
+}
+
+@media only screen and (max-width:330px) and (orientation : portrait){
+    .neg, .pos, .cnt{
+        height: 15px;
+        width: 15px;
+        font-size: small;
+        
+    
+    }
+    .name, .amt, .checkout{
+        font-size: small !important;
+    }
+    .cnt{
+        width: 20px;
+    }
+}
+@media only screen and (max-width:300px) and (orientation : portrait){
+    .name, .amt, .checkout{
+        font-size: small !important;
+        font-weight: 600;
+    }
+    
+}

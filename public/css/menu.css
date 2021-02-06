@@ -1,0 +1,231 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#409ef533,#c240f533);
+    min-height: fit-content;
+}
+   
+.container{
+    width: 100%;
+    overflow: hidden;
+    background-color: #E8F0FD;
+    padding: 28px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    min-height: 100%;
+    box-shadow: inset 0px 0px 41px 6px white;
+    padding-left: 0px;
+}
+.div1{
+    background-color:transparent;
+    height: auto;
+    width: 20%;
+    border-radius: 10px;
+    
+}
+
+.common a {
+    display: flex;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+  }
+.wrap{
+    min-height: 100vh;
+    width: 19%;
+    position: fixed;
+    background-image: url(../images/menu/waiter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -70px 270px;
+}
+.div2{
+    background-color:white;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+.photo{
+    background-color: white;
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    margin : auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+  }
+.name{
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+}
+.common{
+    display: flex;
+    align-items: center;
+    margin: 20px 35px ;
+    font-size: large;
+    cursor: pointer;
+    
+}
+
+.first{
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    align-items: center;
+
+}
+.common i{
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.637);
+    background-color: white;
+    margin-right: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.image img{
+    position: absolute;
+    bottom: -70px;
+    height: 400px;
+    width: 400px;
+    z-index: 0;
+}
+
+.cart i{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    border-radius: 20px;
+
+}
+.second{
+    margin-bottom: 50px;
+}
+.search{
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+.dish{
+    width: 100px;
+    height: 150px;
+    margin: 15px 15px;
+    background-color: rgba(168, 165, 165, 0.15);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.479);
+    cursor: pointer;
+    transition: 1s;
+}
+.dish:hover{
+    transform: scale(1.2);
+    background-color: white;
+}
+.dish img{
+    margin: 10px 15px 20px 15px;
+    width: 70px;
+}
+.special{
+    width: 350px;
+    height: 270px;
+    margin: 15px 25px;
+    background-color: rgba(128, 128, 128, 0.15);
+    border-radius: 40px;
+}
+.third{
+    padding: 30px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    height: 175;
+    width: 165;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 30px;
+    margin: 30px 20px;
+    margin-bottom: 120px;
+    position: relative;
+    padding: 35px 15px 10px 15px ;
+}
+.item .img img{
+    background-color: transparent;
+    height: 90px;
+    width: 100px;
+    position: absolute;
+    z-index: 0;
+    top: -60px;
+    left: 20%;
+}
+.item .itemName{
+    font-size: large;
+    font-weight: 900;
+}
+
+.item .itemDetail{
+    font-size: small;
+    margin: 10px 0px;
+    color: rgb(129, 127, 127);
+}
+
+.item .itemAmt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item .itemAmt .amt{
+    font-size: large;
+    font-weight: 1000;
+}
+
+.item .itemAmt .added{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}

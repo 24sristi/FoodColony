@@ -1,0 +1,184 @@
+@media only screen and (max-height: 550px){
+    .photo{
+        height: 100px;
+        width: 100px;
+        margin-bottom: 20px;
+
+    }
+    .name{
+       margin-bottom: 30px;
+    }
+    .wrap{
+       background-position: -20px 170px;
+   }
+}
+@media only screen and (max-height: 450px){
+    .photo{
+        height: 80px;
+        width: 80px;
+        margin-bottom: 20px;
+
+    }
+    .name{
+       margin-bottom: 20px;
+    }
+    .common{
+        margin: 10px 35px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .common{
+        margin: 10px 15px;
+    }
+    .first{
+        font-size: xx-large;
+       }
+   .cart i{
+        font-size: medium;
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width: 780px){
+   .photo{
+        width: 90px;
+        height: 90px;
+    }
+   .first{
+       font-size: 30px;
+      }
+   .cart i{
+       font-size: small;
+       height: 30px;
+       width: 30px;
+       border-radius: 10px;
+   }
+   
+   .photo img, .photo{
+    width: 90px;
+    height: 90px;
+}
+}
+@media only screen and (max-width: 760px){
+    .common{
+        margin: 10px 10px;
+        font-size: medium;
+    }
+    .common i{
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 690px){
+   .first{
+       font-size: 25px;
+      }
+}
+@media only screen and (max-width: 650px){
+    .common{
+        margin: 20px 10px;
+        font-size: small;
+    }
+    .name{
+        font-size: medium;
+    }
+    .photo, .photo img{
+        height: 70px;
+        width: 70px;
+    }
+    .common i{
+        margin-right: 10px;
+        font-size: small;
+       }
+   .cart i{
+        margin-top: 15px;
+
+    }
+    .first{
+        font-size: xx-large;
+        align-items: unset;
+   }
+   .heading{
+       width: 65%;
+   }
+}
+@media only screen and (max-width: 550px){
+    .name{
+        margin-bottom: 30px;
+    }
+    .photo, .photo img{
+        height: 50px;
+        width: 50px;
+    }
+    .common i{
+        margin-right: 10px;
+        font-size: x-small;
+    }
+    .first{
+       font-size: x-large;
+  }
+}
+@media only screen and (max-width: 500px){
+   .name{
+       margin-bottom: 30px;
+   }
+   .photo{
+       height: 50px;
+       width: 50px;
+   }
+   .common{
+       display: flex;
+       padding-left:10% ;
+   }
+   .common i{
+       display: none;
+   }
+   .dish{
+       width: 80px;
+   }
+}
+
+@media only screen and (max-width: 400px){
+   
+   .first{
+       font-size: large;
+       padding: 15px 25px;
+   }
+   .cart i{
+       height: 30px;
+       width: 30px;
+   }
+   
+.common a{
+    font-size: small;
+}
+}
+@media only screen and (max-width: 350px){
+   .item .img img{
+       top: -40px;
+       left: 10%;
+       height: 60px;
+       width: 80px;
+   }
+   .item{
+       padding: 25px 10px 10px 10px ;
+       height: fit-content;;
+   }
+   .item .itemName{
+       font-size: medium;
+   }
+   .item .itemDetail{
+       font-size: x-small;
+   }
+   .item .itemAmt .amt{
+       font-size:medium;
+       
+   }
+   .item .itemAmt .added{
+       height: 20px;
+       width: 20px;
+       font-size: medium;
+   }
+   
+}

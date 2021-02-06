@@ -1,0 +1,265 @@
+*{
+    margin:0px;
+    padding:0px 10px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#409ef533,#c240f533);
+    min-height: fit-content;
+    padding: 0px;
+}
+ li{
+     list-style: none;
+ }  
+.container{
+    width: 100%;
+    overflow: hidden;
+    background-color: #E8F0FD;
+    padding: 28px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    min-height: 100%;
+    box-shadow: inset 0px 0px 41px 6px white;
+    padding-left: 0px;
+}
+.div1{
+    background-color:transparent;
+    height: auto;
+    width: 20%;
+    border-radius: 10px;
+    
+}
+.wrap{
+    min-height: 100vh;
+    width: 19%;
+    position: fixed;
+    background-image: url(../images/profile/waiter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -70px 270px;
+}
+.div2{
+    background-color: #E8F0FD;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+.photo{
+    background-color: white;
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    margin : auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+  }
+  .common a {
+    display: flex;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+.name{
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+}
+.common{
+    display: flex;
+    align-items: center;
+    margin: 20px 35px ;
+    font-size: large;
+    cursor: pointer;
+    
+}
+.first{
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    align-items: center;
+
+}
+.common i{
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.637);
+    background-color: white;
+    margin-right: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.image img{
+    position: absolute;
+    bottom: -70px;
+    height: 400px;
+    width: 400px;
+    z-index: 0;
+}
+
+.todaysOrder{
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    background-color: #E8F0FD;
+    height: 50px;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.sno{
+    width: 80px;
+}
+.username{
+    width: 130px;
+}
+.img{
+    width: 180px;
+}
+.sub{
+    width: 180px;
+}
+.amt{
+    width: 150px;
+}
+.details{
+    width: 300px;
+}
+.menuDishes, li{
+    padding: 0px;
+}
+.item{
+    display: flex;
+    padding: 10px 20px;
+    margin: 15px 0px;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.item .sno{
+    max-width: 80px;
+    min-width: 80px;
+}
+.item .itemName input{
+    max-width: 110px;
+    width: 110px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.596);
+}
+
+.item .itempic input{
+    max-width: 160px;
+    width: 160px;
+    border: none;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.596);
+}
+.item .amt input{
+    max-width: 130px;
+    width: 130px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.596);
+}
+.item .details input{
+    width: 230px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.596);
+}
+.item .itemCategory input{
+    max-width: 140px;
+    width: 140px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.596);
+}
+input{
+    font-size: medium;
+    padding: 10px;
+    height: 30px;
+}
+
+
+.addBtn{
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8F0FD;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.removeBtn{
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8F0FD;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.item .itemName {
+    max-width: 130px;
+    width: 130px;
+}
+.item .itempic img {
+    max-width: 130px;
+    width: 80px;
+    
+}
+.item .itempic{
+    width: 180px;
+}
+.item .amt{
+    max-width: 150px;
+    width: 150px;
+    
+}
+.item .details {
+    width: 250px;
+}
+.item .itemCategory{
+    max-width: 160px;
+    width: 160px;
+}
